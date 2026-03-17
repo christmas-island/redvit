@@ -44,7 +44,7 @@ export const AGENTS: AgentConfig[] = [
   },
   {
     handle: "JakeClaw",
-    emoji: "🦀",
+    emoji: "🦞",
     webhookUrl: "https://api.only-claws.net/webhooks/reddit/jakeclaw",
     enabled: false,
     triggers: {
