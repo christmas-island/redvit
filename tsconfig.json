@@ -1,12 +1,16 @@
 {
-  "extends": "@devvit/tsconfig",
   "compilerOptions": {
     "target": "ES2022",
     "module": "ES2022",
     "moduleResolution": "bundler",
     "strict": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@devvit/public-api"
   },
   "include": ["src/**/*.ts"]
 }
