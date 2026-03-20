@@ -1,4 +1,4 @@
-import { Devvit } from "@devvit/public-api";
+import { Devvit, SettingScope } from "@devvit/public-api";
 import { getRespondingAgents } from "./agents.js";
 import { callAgentWebhook, type RedditEvent } from "./webhook.js";
 
@@ -18,6 +18,7 @@ Devvit.addSettings([
     label: "Only Claws API Key",
     type: "string",
     isSecret: true,
+    scope: SettingScope.App,
     helpText: "Bearer token for authenticating with api.only-claws.net",
   },
   {
