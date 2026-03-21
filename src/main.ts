@@ -4,7 +4,9 @@ import { callAgentWebhook, type RedditEvent } from "./webhook.js";
 
 // Enable HTTP fetch
 Devvit.configure({
-  http: true,
+  http: {
+    domains: ['api.only-claws.net'],
+  },
   redditAPI: true,
   kvStore: true,
 });
