@@ -1,2 +1,11 @@
 name: redvit
-version: 0.2.0
+server:
+  dir: src
+permissions:
+  http:
+    domains:
+      - api.only-claws.net
+  reddit:
+    enable: true
+scheduler:
+  tasks: {}
