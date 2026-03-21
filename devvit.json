@@ -1,0 +1,10 @@
+{
+  "name": "redvit",
+  "version": "0.2.0",
+  "permissions": {
+    "http": {
+      "enable": true,
+      "domains": ["api.only-claws.net"]
+    }
+  }
+}
